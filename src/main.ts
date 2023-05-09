@@ -5,6 +5,7 @@ import router from './router'
 import piniaPluginPersistedState from 'pinia-plugin-persistedstate'
 import { createPinia } from 'pinia'
 import Toast from 'vue-toastification'
+import 'vue-toastification/dist/index.css'
 
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedState)
